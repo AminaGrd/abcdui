@@ -1,0 +1,78 @@
+/* GRID - main */
+
+/* PARTIE ACTU  */
+
+.container-actu {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Actu-big sticker1-actu sticker2-actu"
+      "Actu-big sticker3-actu sticker4-actu";
+  }
+  
+  .sticker1-actu { grid-area: sticker1-actu; }
+  
+  .sticker2-actu {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . ."
+      ". . ."
+      ". . .";
+    grid-area: sticker2-actu;
+  }
+  
+  .sticker3-actu { grid-area: sticker3-actu; }
+  
+  .sticker4-actu { grid-area: sticker4-actu; }
+  
+  .Actu-big {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "actu-big-sticker actu-big-sticker actu-big-sticker"
+      "actu-big-sticker actu-big-sticker actu-big-sticker"
+      "actu-big-text actu-big-text actu-big-text";
+    grid-area: Actu-big;
+  }
+  
+  .actu-big-sticker { grid-area: actu-big-sticker; }
+  
+  .actu-big-text { grid-area: actu-big-text; }
+
+  
+
+
+/* PARTIE JOB */
+
+.container-job {  display: grid;
+  grid-template-columns: 1fr 1fr 1.1fr 1.1fr 0.8fr;
+  grid-template-rows: 0.8fr 0.8fr 1.5fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+}
+
+.job-big { grid-area: 1 / 1 / 4 / 3; }
+
+.job-big-sticker { grid-area: 1 / 1 / 3 / 3; }
+
+.job-text { grid-area: 3 / 1 / 4 / 3; }
+
+.index-flux { grid-area: 1 / 3 / 4 / 4; }
+
+.area-discord { grid-area: 3 / 4 / 4 / 6; }
+
+.sticker-youtube-1 { grid-area: 1 / 4 / 2 / 5; }
+
+.sticker-youtube-2 { grid-area: 1 / 5 / 2 / 6; }
+
+.sticker-youtube-3 { grid-area: 2 / 4 / 3 / 5; }
+
+.sticker-youtube-4 { grid-area: 2 / 5 / 3 / 6; }
