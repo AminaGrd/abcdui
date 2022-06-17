@@ -1,0 +1,223 @@
+h1{
+    color: white;
+    font-size: 3em;
+    font-family: Rakesly;
+    text-align: center;
+}
+
+.breadcrumbs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    overflow: hidden;
+    color: white;
+    margin:  30px;
+    padding-left: 0;
+    text-decoration: none;
+}
+.breadcrumbs ul {
+    padding-right: 400px;
+}
+.breadcrumbs li {
+    padding-top: 30px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-family: Calibri;
+}
+.breadcrumbs a{
+    color: #e86b18;
+    text-decoration: none;
+    width: fit-content;
+}
+#Home {
+    width:30px;
+}
+
+.main__slide{
+    margin: 0;
+    padding: 0;
+}
+.main__containerslide{
+    max-width: 85%;
+    margin: auto;
+    position: relative;
+}
+.slides{
+    display: none;
+}
+.slides img{
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px #030d1a;
+}
+.prev, 
+.next{
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 16px;
+    border-radius: 0 20px 20px 0;
+    background: #e86b1835;
+    transition: all .3s;
+}
+.next{
+    right: 0;
+    border-radius: 20px 0 0 20px;
+}
+.prev:hover, 
+.next:hover{
+    background: #e86b1884;
+}
+.dot{
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin: 20px 2px 0 2px;;
+    display: inline-block;
+    background: #e86b18;
+    transition: all .3s;
+}
+.activeslide, 
+.dot:hover{
+    background:#ffb181;
+}
+
+
+.main__cotentarticle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.main__contentarticle__description{
+    width: 65%;
+    background-color: #030d1a;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px #030d1a;
+    font-family: Calibri;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.main__contentarticle__description h2{
+    color: #e86b18;
+    font-size: 2.5em;
+    padding: 0 10px 0 20px;
+}
+.main__contentarticle__description p{
+    color: white;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+.main__contentarticle__description ul{
+    padding-left: 50px;
+}
+.main__contentarticle__description li{
+    margin-bottom: 10px;
+    color: white;
+}
+
+.main__contentarticle__description textarea {
+    font-size: 1em;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    width: 85%;
+    height: 100px;
+    line-height: 1.5;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px #000000ac;
+}
+.main__contentarticle__tools{
+    background-color: #030d1a;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px #030d1a;
+    font-family: Calibri;
+    margin-left: 45px;
+    width: 25%;
+    padding-left: 20px;
+}
+.main__contentarticle__tools h3 {
+    color: white;
+    font-size: 2em;
+    padding: 0 10px 0 20px;
+}
+.main__contentarticle__tools ul{
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.main__contentarticle__tools li{
+    margin-bottom: 30px;
+}
+.main__contentarticle__tools a{
+    text-decoration: none;
+    color: #e86b18;
+    font-family: Calibri;
+    background: linear-gradient(0deg, #ffb181, #ffb181) no-repeat right bottom / 0 var(--bg-h);
+    transition: background-size 350ms;
+    --bg-h: 100%;
+    text-decoration: none;
+    line-height: 1;
+}
+.main__contentarticle__tools a:where(:hover, :focus-visible) {
+    background-size: 100% var(--bg-h);
+    background-position-x: left;
+}
+.main__contentarticle__tools .underline{
+    padding-bottom: 1.5px;
+    --bg-h: 2px;
+}
+
+@media screen and (max-width: 1587px){
+    .main__contentarticle__description{
+        width: 85%;
+    }
+    .main__contentarticle__tools{
+        margin-top: 50px;
+        width: 85%;
+        margin-right: 40px;
+    }
+}
+@media screen and (max-width: 730px){
+    .breadcrumbs {
+        margin:  10px;
+    }
+    .breadcrumbs li {
+        padding-right: 10px;
+        font-size: 15px;
+    }
+    #Home {
+        width:20px;
+    }
+    .main__contentarticle__description{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .main__contentarticle__tools{
+        width: 120vw;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-right: 10px;
+        margin-left: 5vw;
+    }
+}
+
+@media screen and (max-width: 480px){
+    h1{
+        font-size: 2.3em;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .breadcrumbs li {
+        padding-right: 5px;
+        font-size: 0.85em;
+    }
+    #Home {
+        width:18px;
+    }
+}

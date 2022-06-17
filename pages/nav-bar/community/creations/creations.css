@@ -1,0 +1,82 @@
+/* Custom File D'ariane */
+
+.breadcrumbs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    overflow: hidden;
+    color: white;
+    margin: 30px;
+    text-decoration: none;
+
+}
+
+.breadcrumbs li {
+
+    padding-top: 30px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-family: Calibri;
+}
+
+.breadcrumbs ul {
+
+    padding-right: 400px;
+}
+
+
+#Home {
+    width: 30px;
+}
+
+
+.container-creations {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+.container-creations img {
+    display:block;
+    height: 250px; 
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px #030d1a;
+}
+
+
+#affich {
+    display:block;
+    position: absolute;
+    top : 20%;
+    left: 33%;
+    visibility: hidden;
+    width:fit-content;
+    height: fit-content; 
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px #030d1aa9;
+}
+
+@media screen and (max-width: 730px){
+    .breadcrumbs {
+        margin:  10px;
+    }
+    .breadcrumbs li {
+        padding-right: 10px;
+        font-size: 15px;
+    }
+    #Home {
+        width:20px;
+    }
+}
+
+@media screen and (max-width: 683px){
+    .container-creations img {
+        height: 30vw; 
+    }
+}

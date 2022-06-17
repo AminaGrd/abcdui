@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1003.7 396" style="enable-background:new 0 0 1003.7 396;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#1B1464;}
+	.st2{fill:#2E3192;}
+	.st3{font-family:'MyriadPro-Regular';}
+	.st4{font-size:40px;}
+	.st5{fill:#0071BC;}
+	.st6{fill:#29ABE2;}
+</style>
+<g>
+	<rect x="13.5" y="418.6" class="st0" width="244.1" height="56.2"/>
+	<g>
+		<g>
+			<g>
+				<polygon class="st1" points="288.3,124.4 297,104 305.7,83.7 319,101.4 332.3,119.1 310.3,121.7 				"/>
+				<polygon points="350,77.9 341.2,98.5 332.3,119.2 318.9,101.2 305.4,83.2 327.7,80.5 				"/>
+				<polygon class="st1" points="305.6,84.1 314.3,63.7 323,43.4 336.3,61.1 349.6,78.8 327.6,81.4 				"/>
+				<polygon class="st1" points="332,119.3 340.7,98.9 349.4,78.6 362.7,96.3 375.9,114 354,116.6 				"/>
+			</g>
+			<path class="st1" d="M367.7,60.2l4.4,5.9l-22.3,16.7l-4.4-5.9L367.7,60.2z"/>
+			<path class="st1" d="M386.6,46l4.4,5.9l-22.3,16.7l-4.4-5.9L386.6,46z"/>
+			<path class="st1" d="M408.8,29.5l4.4,5.9l-22.3,16.7l-4.4-5.9L408.8,29.5z"/>
+		</g>
+		<text transform="matrix(1 0 0 1 424.8193 40.0361)" class="st2 st3 st4">bloc</text>
+		<g>
+			<g>
+				<polygon class="st1" points="199.5,205.2 190.2,225.2 180.9,245.3 168.2,227.2 155.4,209.1 177.5,207.1 				"/>
+				<polygon points="136.5,249.8 145.9,229.4 155.4,209 168.3,227.4 181.2,245.8 158.9,247.8 				"/>
+				<polygon class="st1" points="181.1,244.9 171.7,265 162.4,285.1 149.7,267 137,248.9 159,246.9 				"/>
+				<polygon class="st1" points="155.7,208.9 146.4,229 137.1,249.1 124.4,231 111.7,212.9 133.7,210.9 				"/>
+			</g>
+			<path class="st1" d="M118.3,266.9l-4.2-6l22.8-16l4.2,6L118.3,266.9z"/>
+			<path class="st1" d="M98.9,280.5l-4.2-6l22.8-16l4.2,6L98.9,280.5z"/>
+			<path class="st1" d="M76.3,296.4l-4.2-6l22.8-16l4.2,6L76.3,296.4z"/>
+		</g>
+		<text transform="matrix(1 0 0 1 5.2417 331.2894)" class="st2 st3 st4">élément</text>
+		<g>
+			<g>
+				<polygon class="st1" points="728.8,228.6 749.2,237.3 769.5,246 751.8,259.3 734.1,272.5 731.5,250.6 				"/>
+				<polygon points="775.3,290.3 754.7,281.4 734,272.6 752,259.1 770,245.7 772.6,268 				"/>
+				<polygon class="st1" points="769.1,245.9 789.5,254.6 809.8,263.3 792.1,276.5 774.4,289.8 771.8,267.8 				"/>
+				<polygon class="st1" points="733.9,272.2 754.3,281 774.6,289.7 756.9,302.9 739.2,316.2 736.5,294.2 				"/>
+			</g>
+			<path class="st1" d="M793,308l-5.9,4.4l-16.7-22.3l5.9-4.4L793,308z"/>
+			<path class="st1" d="M807.2,326.9l-5.9,4.4L784.6,309l5.9-4.4L807.2,326.9z"/>
+			<path class="st1" d="M823.7,349l-5.9,4.4l-16.7-22.3l5.9-4.4L823.7,349z"/>
+		</g>
+		<rect x="188" y="142.3" class="st0" width="829" height="140.9"/>
+		<text transform="matrix(1 0 0 1 188.0747 170.7382)" class="st1 st3 st4">&lt;header class=&quot;header&quot;&gt;</text>
+		<text transform="matrix(1 0 0 1 188.0747 218.7382)" class="st3 st4">  </text>
+		<text transform="matrix(1 0 0 1 205.0747 218.7382)" class="st5 st3 st4">&lt;div class=&quot;header__item--</text>
+		<text transform="matrix(1 0 0 1 661.8748 218.7382)" class="st6 st3 st4">blue</text>
+		<text transform="matrix(1 0 0 1 736.1747 218.7382)" class="st5 st3 st4">&quot;&gt;</text>
+		<text transform="matrix(1 0 0 1 773.4747 218.7382)" class="st3 st4">Est ce que les </text>
+		<text transform="matrix(1 0 0 1 188.0747 266.7382)" class="st3 st4">pigeons ont des oreilles ? </text>
+		<text transform="matrix(1 0 0 1 616.2748 266.7382)" class="st1 st3 st4">div&gt;</text>
+		<polygon class="st0" points="812.3,278.3 815.4,278.3 815.4,278.3 		"/>
+		<rect x="755.1" y="353.3" class="st0" width="236.9" height="65.4"/>
+		<text transform="matrix(1 0 0 1 755.1816 381.7167)" class="st2 st3 st4">modificateur</text>
+	</g>
+</g>
+</svg>

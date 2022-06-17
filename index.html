@@ -3,308 +3,225 @@
 
 <head>
     <meta charset="utf-8">
-
-    <!-- Appel fonts -->
-    <link rel="stylesheet" type="text/css" media="screen" href="Typo/Bebas-Regular.ttf">
-    <link rel="stylesheet" type="text/css" media="screen" href="Typo/newscycle-regular.ttf">
-    <link rel="stylesheet" type="text/css" media="screen" href="Typo/NotoSans-Regular.ttf">
-    <link rel="stylesheet" type="text/css" media="screen" href="Typo/rakesly rg.otf">
-
-    <!-- Pour personnaliser l'onglet de navigation (icone en 48x48 px - en .ico ou png)-->
-    <link rel="shortcut icon" type="image/x-icon" href="images/logo-mini.png">
-
-
-    <!--Appel JS en "differé" -->
-    <script defer src="js/myScript.js" type="text/javascript"></script>
-
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon-fav.png">
+    <link rel="stylesheet" href="index.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="header-footer.css" type="text/css" media="screen">
     <title>ABCD UI</title>
-    <link rel="stylesheet" href="index.css" type="text/css" media="screen" />
 </head>
-
-
 
 <body>
     <header>
+        <a href="index.html">
+            <img id="logo" src="images/header/logo_ABCDUI-logo-website.png" width="200 px" alt="Logo ABCDUI">
+        </a>
+        
 
-        <!--LOGO -->
-        <div>
-            <a href="index.html">
-                <img id="logo" src="images/logo_ABCDUI.svg" alt="Logo ABCDUI">
-            </a>
-        </div>
-
-        <!--BARRE DE NAVIGATION -->
-
+<div class="burger-menu">
+    <div class="menu-button">
+        <div class="burger-line burger-line-reverse"></div>
+        <div class="burger-line burger-line-reverse"></div>
+        <div class="burger-line burger-line-reverse"></div>
+    </div>          
+</div>   
 
 
-        <div class="nav-bar">
-            <a href="pages/contenu-web/contenu-web.html">Contenu Web</a>
-            <a href="pages/design/design.html">Design</a>
-            <a href="pages/developpement/developpement.html">Developpement</a>
-            <a href="pages/graphisme/graphisme.html">Graphisme</a>
-            <a href="pages/juridique/juridique.html">Juridique</a>
-            <a href="pages/web-marketing/web-marketing.html">Web-Marketing</a>
 
-            <div class="DD-menu">
-                <button class="DD-button" onmouseover="myFunction()">Community
-                    <i class="DD-button-down"></i>
-                </button>
-                <div class="DD-button-content" id="DD-community">
-                    <a href="pages/Actualités/actualités.html">Actualité</a>
-                    <a href="pages/Job/Job.html">Job</a>
-                    <a href="pages/Outils/Outils.html">Outils</a>
-                    <a href="https://discord.com/login" target="_blank">Discord</a>
-                </div>
+        <div class="top-menu">
+            <nav>
+                <a href="pages/nav-bar/web-content/web-content.html" class="hover-underline-animation">Contenu Web</a>
+                <a href="pages/nav-bar/design/design.html" class="hover-underline-animation">Design</a>
+                <a href="pages/nav-bar/development/development.html" class="hover-underline-animation">Developpement</a>
+                <a href="pages/nav-bar/graphisme/graphisme.html" class="hover-underline-animation">Graphisme</a>
+                <a href="pages/nav-bar/legal/legal.html" class="hover-underline-animation">Juridique</a>
+                <a href="pages/nav-bar/web-marketing/web-marketing.html"
+                    class="hover-underline-animation">Web-Marketing</a>
+                    <div class="dropdown">
+                        <a href="#" onclick="DropDown()" class="dropbtn hover-underline-animation">Community</a>
+                        <div id="Drop" class="dropdown-content">
+                            <a href="pages/nav-bar/community/news/news.html"
+                                class="hover-underline-animation">Actualités</a>
+                            <a href="pages/nav-bar/community/job/job.html" class="hover-underline-animation">Emploi</a>
+                            <a href="pages/nav-bar/community/tools/tools.html" class="hover-underline-animation">Outils</a>
+                            <a href="pages/nav-bar/community/creations/creations.html"
+                                class="hover-underline-animation">Créations</a>
+                            <a href="https://discord.gg/5ht5dHCvBA" target="_blank"
+                                class="hover-underline-animation">Discord</a>
+    
+                        </div>
+                    </div>
+                </nav>
             </div>
-        </div>
-
-
-    </header>
+        </header>
 
 
     <main>
-
-
-        <!-- partie actualité veille - Vignettes -->
-        <!-- ENTRER LES LIENS PAGES AVEC ANCRE SUR CHAQUE VIGNETTES !!!!!!!!!!!!!!! -->
-
-        <div class="container-actu">
-            <div class="sticker1-actu">
-
-                <a href="#">
-                    <img src="images/index-sticker1.svg" alt="infos 1"> </a>
+        <div class="main__news">
+            <div class="main__news--principal">
+                <img src="images/index/index-news.png" width="700 px">
+                <p>
+                    Depuis décembre 2020, l’Union européenne (UE) entend réguler les plateformes numériques avec deux règlements : le Digital Services Act (DSA) et le Digital Markets Act (DMA).
+                    Ensemble, ils sont censés mettre fin à l’irresponsabilité des géants du numérique. Le premier en protégeant davantage les consommateurs et leurs droits fondamentaux en ligne, et en luttant contre les contenus illicites tels que la pédopornographie en imposant de nouvelles règles aux plateformes.
+                    <a href="pages/nav-bar/community/news/news.html">[lire la suite]</a>
+                </p>  
             </div>
-
-
-            <div class="sticker2-actu">
-                <a href="#">
-                    <img src="images/index-sticker2.svg" alt="infos 2"> </a>
-            </div>
-
-
-            <div class="sticker3-actu">
-                <a href="#">
-                    <img src="images/index-sticker3.svg" alt="infos 3"> </a>
-            </div>
-
-
-            <div class="sticker4-actu">
-                <a href="#">
-                    <img src="images/index-sticker4.svg" alt="infos 4"> </a>
-            </div>
-
-
-
-            <div class="Actu-big">
-
-                <div class="actu-big-sticker">
-                    <a href="#">
-                        <img src="images/workshop.svg" alt="dernière actualité"> </a>
+                <div class="main__news--block">
+                    <div class="main__news--blocks">
+                        <a href="pages/nav-bar/community/news/news.html">
+                            <img src="images/index/index-newscard-brain.png" width="300 px">
+                        </a>
+                    </div>
+                    <div class="main__news--blocks">
+                        <a href="pages/nav-bar/community/news/news.html">
+                            <img src="images/index/index-newscard-code.png" width="300 px">
+                        </a>
+                    </div>
                 </div>
-
-
-                <div class="actu-big-text">
-                    <p>Animaux de la forêt! Auw auw ouh, woh woh woh woh, auw aouh ! Ah ah
-                        Sire ! Je vous attends! À moins que vous préfériez qu’on dise partout que le
-                        roi est une petite pédale qui pisse dans son froc à l’idée d’se battre ! Bon alors
-                        en garde, fils d’unijambiste. Vous savez c’est quand de même pas grave de
-                        pas savoir faire des tartes ! <a href="pages/Actualités/actualités.html">[lire la suite]</a></p>
+                <div class="main__news--block">
+                    <div class="main__news--blocks">
+                        <a href="pages/nav-bar/community/news/news.html">
+                            <img src="images/index/index-newscard-mac.png" width="300 px">
+                        </a>
+                    </div>
+                    <div class="main__news--blocks">
+                        <a href="pages/nav-bar/community/news/news.html">
+                            <img src="images/index/index-newscard-phone.png" width="300 px">
+                        </a>
+                    </div>
                 </div>
-            </div>
         </div>
-        </div>
-
-
-
-        <!-- partie "job" - discord et youtube  -->
-
-
-        <div class="container-job">
-            <div class="job-big">
-                <a href="#">
-                    <div class="job-big-sticker">
-                        <img src="images/job-illus.svg" alt="Actualités job">
+        
+        <div class="main__infos">
+            <div class="main__job">
+                <a href="pages/nav-bar/community/news/news.html"> 
+                    <img src="images/index/index-job.png" alt="Actualités job" width="700 px">
                 </a>
+                <p>
+                    Ici vous trouverez des outils et des guides pratiques pour vous aider dans vos démarches de recherches d'emplois, de formations et des inspirations pour vos portfolios! <a href="pages/job/job.html">[let's gooo!]</a>
+                </p>
+            </div>
+            <div class="main__flux"> 
+                <h3>Flux</h3>
+                <ul>
+                    <li>
+                        <p>PODCAST (en) : </p>
+                        <a href="https://syntax.fm/" target="_blank" class="underline">Syntax. - A Tasty Treats Podcast for Web Developers.</a>
+                    </li>
+                    <li>
+                        <p>VIDEO (fr) : </p>
+                        <a href="https://www.youtube.com/watch?v=VBLGKDl8crI" target="_blank" class="underline">From Scratch - Créer une interface de recherche dynamique avec Vue et Php/mySql</a>
+                    </li>
+                    <li>
+                        <p>MASTERCLASS (fr) : </p>
+                        <a href="https://www.youtube.com/watch?v=_E0NUZh9gn4" target="_blank" class="underline">
+                            Ecole MJM Graphic Design - Conseils pour digitaliser son portfolio ou son book
+                        </a>
+                    </li>
+                    <li>
+                        <p>CONFERENCE (en) : </p>
+                        <a href="https://www.youtube.com/watch?v=zIwLWfaAg-8" target="_blank" class="underline">TED - Elon Musk: The future we're building -- and boring</a>
+                    </li>
+                    <li>
+                        <p>WEBINAR (en) : </p>
+                        <a href="https://www.youtube.com/watch?v=sFfPhp4HV20" target="_blank" class="underline">CFO Club - Webinar on "DeepFakes" - an introduction to technology</a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+
+            <div class="main__crea-discord">
+                <div class="main__crea">
+                    <a href="pages/nav-bar/community/creations/creations.html"><img src="images/index/index-crea.png" alt="Creations CDUI" width="300 px"> </a>
+                </div>
+                <div class="main__discord">
+                    <a href="https://discord.gg/5ht5dHCvBA" target="_blank"><img src="images/index/logo-discord.png" alt="Join Discord" width="100 px"> </a>
+                    <a href="https://discord.gg/5ht5dHCvBA" class="button--discord" target="_blank">JOIN!</a>
+                </div>
             </div>
         </div>
-        <div class="job-text">
 
-            <p>Ici vous trouverez des outils et des guides pratiques pour vous aider dans vos démarches de recherches
-                d'emplois, de formations et des inspirations pour vos portfolios! <a href="pages/Job/Job.html">[let's
-                    gooo !]</a></p>
+        <div class="button-top">
+            <a href="#logo"><img src="images/footer/button-top.svg" alt="Remonter" width="40 px"></a>
         </div>
-
-
-        <div class="index-flux">
-            <h3>Flux</h3>
-            <ul>
-                <li><a href="#">Podcast : From Scratch - Développement Web</a></li>
-                <li><a href="#">Vidéo : From Scratch - Développement Web</a></li>
-                <li><a href="#">Masterclass : From Scratch - Développement Web</a></li>
-                <li><a href="#">Conférence : From Scratch - Développement Web</a></li>
-                <li><a href="#">Webinar: From Scratch - Développement Web</a></li>
-
-            </ul>
-
-        </div>
-
-
-
-
-        <div class="area-discord">
-
-            <a href="#">
-                <img src="images/discord-XL.png" alt="Join Discord"> </a>
-
-
-            <a href="https://discord.com/login" class="button" target="_blank">JOIN</a>
-
-        </div>
-
-
-
-        <div class="sticker-youtube-1">
-            <a href="#" target="_blank">
-                <img src="images/realisations-cdui.svg" alt="Réalisation de **"> </a>
-        </div>
-
-
-        <div class="sticker-youtube-2">
-
-            <a href="#" target="_blank">
-                <img src="images/realisations-cdui.svg" alt="Réalisation de **"> </a>
-        </div>
-
-
-        <div class="sticker-youtube-3">
-
-            <a href="#" target="_blank">
-                <img src="images/realisations-cdui.svg" alt="Réalisation de **"> </a>
-        </div>
-
-
-        <div class="sticker-youtube-4"><a href="#" target="_blank">
-                <img src="images/realisations-cdui.svg" alt="Réalisation de **"> </a></div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- Bouton flottant de remontée en haut -->
-
-        <div class="button-float">
-            <a href="#logo"><img src="images/bouton-remontee.svg" alt="Retour en haut"></a>
-        </div>
-
-
     </main>
 
 
 
 
     <footer>
-
-        <section class="container-footer">
-
-
-            <!-- Mentions légales -->
-
-            <div>
+            <div class="container-footer">
                 <h3>Mentions légales</h3>
 
                 <ul>
-                    <!-- Inserer les ancres dans chaque page ci-dessous pour renvoie à l'article concerné -->
-                    <li><a href="pages/mentions-légales/mentions-légales.html">CGV</a></li>
-                    <li><a href="pages/mentions-légales/mentions-légales.html">Droits auteur</a></li>
-                    <li><a href="pages/mentions-légales/mentions-légales.html">Charte d'utilisation Discord</a></li>
-
+                    <li><a href="pages/footer/legal-terms/legal-terms.html" class="hover-underline-animation">CGV</a></li>
+                    <li><a href="pages/footer/legal-terms/legal-terms.html" class="hover-underline-animation">Droits auteur</a></li>
+                    <li><a href="https://discord.com/terms?locale=fr" class="hover-underline-animation" target="_blank">Charte d'utilisation Discord</a></li>
                 </ul>
             </div>
 
-
-
-
-            <!-- Contenu -->
-
-            <div>
+            <div class="container-footer">
                 <h3>Contenu</h3>
                 <ul>
-                    <li><a href="pages/graphisme/graphisme.html">Graphisme</a></li>
-                    <li><a href="pages/design/design.html">Design</a></li>
+                    <li><a href="../../../footer/graphic-chart.pdf" target="_blank" class="hover-underline-animation">Charte graphique</a></li>
+                    <li><a href="../../../footer/kit-ui-abcdui.png" target="_blank" class="hover-underline-animation">Icônes</a></li>
                 </ul>
             </div>
-
-
-            <!-- CDUI -->
-
-
-            <div>
+            <div class="footer-push"></div>
+            <div class="container-footer">
                 <h3>CDUI</h3>
                 <ul>
-                    <li><a href="https://www.onlineformapro.com" target="_blank">Onlineformatpro</a></li>
-                    <li><a href="https://www.afpa.fr/" target="_blank">AFPA</a></li>
-                    <li><a href="https://www.accesscodeschool.fr/" target="_blank">AccessCodeSchool</a></li>
+                    <li><a href="https://www.onlineformapro.com" target="_blank" class="hover-underline-animation">Onlineformapro</a></li>
+                    <li><a href="https://www.afpa.fr/" target="_blank" class="hover-underline-animation">AFPA</a></li>
+                    <li><a href="https://www.accesscodeschool.fr/" target="_blank" class="hover-underline-animation">AccessCodeSchool</a></li>
 
                 </ul>
             </div>
 
+            <div class="container-footer"> 
+                <h3>À propos</h3>
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/checkpoint/lg/login" title="LinkedIn" target="blank">
+                            <img alt="LinkedIn" src="images/footer/logo-linkedin.svg" width="25 px">
+                        </a>
 
+                        <a href="https://www.instagram.com/" title="Instagram" target="blank">
+                            <img alt="instagram" src="images/footer/logo-insta.svg" width="25 px">
+                        </a>
 
+                        <a href="https://unsplash.com/login" title="Unsplash" target="blank">
+                            <img alt="unsplash" src="images/footer/logo-unsplash.svg" width="25 px">
+                        </a>
 
-            <!-- A propos -->
+                        <a href="https://discord.com/login" title="Discord" target="blank">
+                            <img alt="Discord" src="images/footer/logo-discord.svg" width="25 px">
+                        </a>
+                    </div>
+                    <div class="social-media">
+                        <a href="https://github.com/login" title="GitHub" target="blank">
+                            <img alt="github" src="images/footer/logo-github.svg" width="25 px">
+                        </a>
 
-            <div id="social-media">
+                        <a href="https://www.youtube.com/" title="Youtube" target="blank">
+                            <img alt="Youtube" src="images/footer/logo-ytb.svg" width="25 px">
+                        </a>
 
-                <h3>A propos</h3>
-                <p>
-                    <a href="https://www.linkedin.com/checkpoint/lg/login" title="LinkedIn" target="blank">
-                        <img alt="LinkedIn" src="images/logo-linkedin.svg"></a>
+                        <a href="https://www.pinterest.fr/" title="Pinterest" target="blank">
+                            <img alt="Pinterest" src="images/footer/logo-pinterest.svg" width="25 px">
+                        </a>
 
-                    <a href="https://www.instagram.com/" title="Instagram" target="blank">
-                        <img alt="instagram" src="images/logo-insta.svg"></a>
-
-                    <a href="https://unsplash.com/login" title="Unsplash" target="blank">
-                        <img alt="unsplash" src="images/logo-unsplash.svg"></a>
-
-                    <a href="https://discord.com/login" title="Discord" target="blank">
-                        <img alt="Discord" src="images/logo-discord.svg"></a>
-
-                    <a href="https://github.com/login" title="GitHub" target="blank">
-                        <img alt="github" src="images/logo-github.svg"></a>
-
-                    <a href="https://www.youtube.com/" title="Youtube" target="blank">
-                        <img alt="Youtube" src="images/logo-ytb.svg"></a>
-
-                    <a href="https://www.pinterest.fr/" title="Pinterest" target="blank">
-                        <img alt="Pinterest" src="images/logo-pinterest.svg"></a>
-
-                    <a href="https://www.behance.net/" title="Behance" target="blank">
-                        <img alt="Behance" src="images/logo-behance.svg"></a>
-
-                </p>
-
+                        <a href="https://www.behance.net/" title="Behance" target="blank">
+                            <img alt="Behance" src="images/footer/logo-behance.svg" width="25 px">
+                        </a>
+                    </div>
             </div>
-
-
-
-        </section>
-
-
-
-
-
+            <div class="footer-push"></div>
     </footer>
+    <script src="dropdown.js"> 
+    </script>
+    <script src="burger.js"> 
+    </script>
 </body>
-
-
 
 </html>

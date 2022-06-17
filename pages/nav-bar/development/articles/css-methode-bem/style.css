@@ -1,0 +1,245 @@
+*{
+    border: soid;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+
+    background-color: rgba(0, 0, 255, 0.074);
+
+}
+
+/*header*/
+
+.header{
+
+    width: 100%;
+    height: 100vh;
+
+}
+
+.header__item{
+
+    display: flex;
+    flex-direction: column; 
+    align-items: center
+    }
+
+.header__title{
+
+    width: 120vh;
+    height: 120vh;
+    margin-left: 5%;
+    margin-top: -8%;
+
+}
+
+.header__bandeau {
+
+    width: 100%;
+    height: 3.5vh;
+    background-color :cornflowerblue;
+
+
+}
+
+.header_h2{
+
+    font-size: 5vh;
+    text-align: center;
+    margin-top: -8%;
+    color: rgba(181, 10, 10, 0.848);
+}
+
+.header_h2_2 {
+
+    font-size: 5vh;
+    text-align: center;
+    color: white ;
+    text-shadow: 0 0 5px #000000;
+
+}
+
+/*main*/
+
+.main_image{
+
+    width: 40vh;
+    height: 40vh;
+    margin-left: 85%;
+    margin-top: -15%;
+
+}
+
+main{
+    
+    
+}
+
+.main_title{
+
+    text-align: center;
+    color: blue;
+    font-size: 8vh;
+}
+
+.main_bandeau{
+
+    width: 100%;
+    height: 3.5vh;
+    background-color :cornflowerblue;
+
+
+}
+
+.main__sommaire_1, .main__sommaire_2, .main__sommaire_3 {
+
+
+    font-size: 7vh;
+    color: rgb(9, 7, 51);
+    margin-top: 10%;
+
+
+}
+
+.main__bandeau_2{
+
+    width: 100%;
+    height: 3.5vh;
+    background-color :cornflowerblue;
+    margin-top: 7%;
+
+}
+
+
+/* Sommaire1 */
+
+.Sommaire__1 {
+
+    display : flex ;
+    justify-content: space-between;
+    padding: 10%;
+    
+  }
+
+  .Bloc {
+
+    width:40vh;
+    height:40vh;
+
+   }
+
+  .Elément {
+
+    width:40vh;
+    height:40vh;
+
+    }
+  
+  .Modificateur {
+
+    width:40vh;
+    height:40vh;
+   
+    }
+
+
+    .main_mario{
+
+        width: 30vh;
+        height: 30vh;
+        margin-left: 90%;
+    }
+
+.Title__sommaire_1 {
+
+    text-align: center;
+    font-size: 8vh;
+    color: blue;
+
+    }
+ 
+
+.bloc_title {
+
+    display: inline-block;
+    font-size: 10vh;
+    color: blue;
+ 
+}
+
+
+
+/* Sommaire 2*/
+
+.sommaire__title_2{
+
+    text-align: center;
+    font-size: 8vh;
+    color: blue;
+}
+
+
+/* Sommaire 3*/
+
+.sommaire_3{
+
+    width: 100%;
+    height: 100vh;
+
+}
+
+.sommaire__title_3{
+
+    
+    text-align: center;
+    font-size: 8vh;
+    color: blue;
+
+}
+
+.CP{
+
+    font-size: 10vh;
+    color: rgb(54, 50, 50);
+    text-align: center;
+    margin-top: 10%;
+    text-shadow: 0 0 8px #000000;
+    margin-top: 10%;
+
+}
+
+.main_bandeau_3{
+
+    width: 100%;
+    height: 3.5vh;
+    background-color :cornflowerblue;
+    margin-top: 20%;
+    
+}
+
+.fin{
+
+    font-size: 10vh;
+    text-align: center;
+    color: rgb(54, 50, 50) ;
+    text-shadow: 0 0 5px #000000;
+    padding-top: 15%;
+
+}
+
+footer{
+
+    width: 100%;
+    height: 50vh;
+}
+
+.footer_bandeau{
+
+    width: 100%;
+    height: 3.5vh;
+    background-color :cornflowerblue;
+    margin-top: 20%
+
+}
